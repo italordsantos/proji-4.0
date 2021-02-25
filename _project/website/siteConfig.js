@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Projeto Indústria 4.0 - Educando no Presente para o Futuro', // Title for your website.
+  title: 'Projeto Estratégico Iniciação Tecnológica com foco na Economia 4.0', // Title for your website.
   tagline: '',
   url: 'https://italordsantos.github.io/', // Your website URL
   baseUrl: '/proji-4.0/', // Base URL for your project */
