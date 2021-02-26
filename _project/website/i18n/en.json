@@ -23,9 +23,8 @@
       }
     },
     "links": {
-      "Docs": "Docs",
-      "API": "API",
-      "Help": "Help",
+      "Download": "Download",
+      "Sobre o projeto": "Sobre o projeto",
       "Blog": "Blog"
     },
     "categories": {

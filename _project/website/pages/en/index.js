@@ -15,8 +15,8 @@ const GridBlock = CompLibrary.GridBlock;
 
 class HomeSplash extends React.Component {
   render() {
-    const {siteConfig, language = ''} = this.props;
-    const {baseUrl, docsUrl} = siteConfig;
+    const { siteConfig, language = '' } = this.props;
+    const { baseUrl, docsUrl } = siteConfig;
     const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`;
     const langPart = `${language ? `${language}/` : ''}`;
     const docUrl = (doc) => `${baseUrl}${docsPart}${langPart}${doc}`;
@@ -60,13 +60,10 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href="#try">Conheça o projeto</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -76,8 +73,8 @@ class HomeSplash extends React.Component {
 
 class Index extends React.Component {
   render() {
-    const {config: siteConfig, language = ''} = this.props;
-    const {baseUrl} = siteConfig;
+    const { config: siteConfig, language = '' } = this.props;
+    const { baseUrl } = siteConfig;
 
     const Block = (props) => (
       <Container
@@ -95,9 +92,9 @@ class Index extends React.Component {
     const FeatureCallout = () => (
       <div
         className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+        style={{ textAlign: 'center' }}>
+        <h2>Está pronto para se tornar um profissional da Economia 4.0?</h2>
+        <MarkdownBlock>TEXTOOOOOOOOO</MarkdownBlock>
       </div>
     );
 
@@ -149,16 +146,22 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
+            content: '',
+            image: `https://upload.wikimedia.org/wikipedia/commons/4/42/Arduino_Uno_logo.png`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'Programação para Arduíno',
           },
           {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            content: '',
+            image: `https://cdn.awsli.com.br/1000x1000/22/22114/produto/15550053/ed7da25909.jpg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Impressão 3D',
+          },
+          {
+            content: '',
+            image: `https://blueagenciadigital.com.br/wp-content/uploads/2019/05/wall-e-1872683_1920-copy-1300x731.jpg`,
+            imageAlign: 'top',
+            title: 'Robótica básica',
           },
         ]}
       </Block>
@@ -203,7 +206,6 @@ class Index extends React.Component {
           <LearnHow />
           <TryOut />
           <Description />
-          <Showcase />
         </div>
       </div>
     );
