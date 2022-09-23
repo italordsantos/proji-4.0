@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[449],{828:e=>{e.exports=JSON.parse('{"title":"Materiais","slug":"/category/materiais","permalink":"/docs/category/materiais","navigation":{"previous":{"title":"Introdu\xe7\xe3o","permalink":"/docs/"},"next":{"title":"Materiais","permalink":"/docs/materiais/"}}}')}}]);
