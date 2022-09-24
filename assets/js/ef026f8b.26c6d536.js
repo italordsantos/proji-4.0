@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprojeto_tecnologico=self.webpackChunkprojeto_tecnologico||[]).push([[663],{1791:o=>{o.exports=JSON.parse('{"label":"hola","permalink":"/proji-4.0/blog/tags/hola","allTagsPath":"/proji-4.0/blog/tags","count":1}')}}]);

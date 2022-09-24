@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprojeto_tecnologico=self.webpackChunkprojeto_tecnologico||[]).push([[956],{3504:o=>{o.exports=JSON.parse('{"permalink":"/proji-4.0/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
