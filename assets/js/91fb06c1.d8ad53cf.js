@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprojeto_tecnologico=self.webpackChunkprojeto_tecnologico||[]).push([[4162],{4124:o=>{o.exports=JSON.parse('{"permalink":"/proji-4.0/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

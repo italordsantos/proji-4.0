@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkprojeto_tecnologico=self.webpackChunkprojeto_tecnologico||[]).push([[532],{9823:o=>{o.exports=JSON.parse('{"label":"docusaurus","permalink":"/proji-4.0/blog/tags/docusaurus","allTagsPath":"/proji-4.0/blog/tags","count":4}')}}]);
